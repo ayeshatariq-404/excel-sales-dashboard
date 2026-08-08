@@ -24,15 +24,13 @@ The dashboard provides a visual summary of sales performance and allows users to
 
 ![Excel Sales Dashboard](Dashboard/sales_Dasboard.png)
 
-**View the updated README:** [https://github.com/ayeshatariq-404/excel-sales-dashboard/blob/main/README.md](https://github.com/ayeshatariq-404/excel-sales-dashboard/blob/main/README.md)
-
 ## 📂 Repository Structure
 
 ```text
 excel-sales-dashboard/
 │
 ├── Dashboard/
-│   ├── sales_Dasboard.png
+│   ├── sales_Dashboard.png
 │   └── sales_dashboard.pdf
 │
 ├── Excel_Files/
@@ -40,6 +38,9 @@ excel-sales-dashboard/
 │   └── Sales_Dashboard.xlsx
 │
 ├── Pivot_Tables/
+│   ├── Pivot_by_Region.png
+│   ├── Pivot_by_Category.png
+│   └── Pivot_by_Month.png
 │
 └── README.md
 ```
