@@ -1,28 +1,78 @@
 # 📊 Excel Sales Dashboard
 
-An interactive **Sales Dashboard created in Microsoft Excel** to explore and present sales performance through clear visualizations and key business metrics.
+An interactive sales dashboard created in Microsoft Excel to analyze and visualize sales performance using key metrics, PivotTables, charts, and interactive filters.
+
+This is my first data analytics project after completing the Excel Essentials course at Macquarie University. The project allowed me to apply the Excel skills I learned to a practical sales analysis workflow.
 
 ## 🎯 Project Overview
 
-This project focuses on transforming sales data into a clear and interactive dashboard that makes important sales information easier to understand and analyze.
+The goal of this project was to transform sales data into an interactive and easy-to-understand dashboard.
 
-The project includes the original sales dataset and the completed Excel dashboard.
+The dashboard allows users to explore sales performance by:
+
+- Region
+- Product Category
+- Month
+
+The project demonstrates how Excel can be used to organize data, perform analysis, and communicate results through visualizations.
+
+## 📸 Dashboard Preview
+
+![Excel Sales Dashboard](Dashboard/sales_Dasboard.png)
+
+## 📈 Dashboard Highlights
+
+The dashboard summarizes the sales data through key performance indicators:
+
+| Metric | Result |
+|---|---:|
+| Total Sales | $356,780 |
+| Total Profit | $94,000 |
+| Total Orders | 450 |
+| Average Sales | $792 |
+
+The dashboard also includes:
+
+- Sales by Region
+- Sales by Product Category
+- Monthly Sales Trend
+- Interactive Region filter
+- Interactive Month filter
+- Product Category filter
 
 ## 🛠️ Tools & Skills
 
-* Microsoft Excel
-* Data Analysis
-* Data Visualization
-* Dashboard Design
-* Sales Performance Analysis
+### Tools
 
-## 📊 Dashboard
+- Microsoft Excel
 
-The dashboard provides a visual summary of sales performance and allows users to explore the available sales information through the dashboard interface.
+### Skills Practiced
 
-### Dashboard Preview
+- Data preparation
+- Data analysis
+- PivotTables
+- Pivot Charts
+- Data visualization
+- Dashboard design
+- Interactive filters
+- Sales performance analysis
+- Presenting analytical results
 
-![Excel Sales Dashboard](Dashboard/sales_Dasboard.png)
+## 🔄 Project Workflow
+
+```text
+Sales Dataset
+      ↓
+Data Preparation
+      ↓
+Data Analysis
+      ↓
+PivotTables
+      ↓
+Charts & Visualizations
+      ↓
+Interactive Dashboard
+````
 
 ## 📂 Repository Structure
 
@@ -49,61 +99,74 @@ excel-sales-dashboard/
 
 ### Dashboard
 
-Contains the final dashboard in:
+The `Dashboard` folder contains:
 
-* **PNG format** — quick preview
-* **PDF format** — presentation-ready version
+* `sales_Dashboard.png` — dashboard preview image
+* `sales_dashboard.pdf` — PDF version of the dashboard
 
 ### Excel Files
 
-Contains:
+The `Excel_Files` folder contains:
 
-* **Sales Dataset** — source data used for the project
-* **Sales Dashboard** — completed Excel dashboard workbook
+* `Sales_Dataset.xlsx` — source sales dataset
+* `Sales_Dashboard.xlsx` — completed Excel dashboard workbook
 
-## 🔄 Project Workflow
+### Pivot Tables
 
-```text
-Sales Dataset
-      ↓
-Data Preparation
-      ↓
-Analysis
-      ↓
-Dashboard Development
-      ↓
-Final Sales Dashboard
-```
+The `Pivot_Tables` folder contains visual outputs of the analysis:
 
-## 💡 Project Objective
+* `Pivot_by_Region.png`
+* `Pivot_by_Category.png`
+* `Pivot_by_Month.png`
 
-The main objective of this project was to practice working with sales data and present the results in a clear, user-friendly Excel dashboard.
-
-## 📚 Learning Outcomes
+## 💡 Key Learning Outcomes
 
 Through this project, I practiced:
 
-* Working with real-world style sales data
+* Working with sales data
 * Preparing data for analysis
-* Analyzing sales performance
-* Creating visual representations of data
-* Designing a clean and user-friendly dashboard
-* Presenting analytical results effectively
+* Creating and using PivotTables
+* Creating charts from analytical results
+* Building an interactive Excel dashboard
+* Using filters to explore data
+* Presenting information through data visualization
+* Turning data into an understandable visual report
+
+## 🎓 Learning Context
+
+This project was created as a practical application of the skills I learned through the **Excel Essentials course at Macquarie University**.
+
+As my first data analytics project, the main focus was learning how to take a dataset through the analysis process and present the results in a clear dashboard.
 
 ## 🚀 Future Improvements
 
-Future versions of this project could include:
+I plan to continue developing my data analytics skills and may improve this project in the future by adding:
 
-* More detailed sales analysis
-* Additional performance metrics
-* Advanced Excel features
+* More advanced Excel analysis
+* Additional KPIs
+* More detailed business insights
 * Automated data updates
-* Power BI implementation
+* Advanced Excel features
+* A Power BI version of the analysis
 
-## 👩‍💻 Author
+## 👩‍💻 About Me
 
 **Ayesha Tariq**
 
-BS Data Science Student | Data Analytics Enthusiast
+BS Data Science Student | Aspiring Data Analyst
 
-**Skills:** Excel • SQL • Python • Data Analysis
+Currently developing my skills in:
+
+* Excel
+* SQL
+* Python
+* Data Analysis
+* Data Visualization
+
+This project is one of the first steps in my journey toward becoming a data analyst.
+
+## 📌 Project Status
+
+**Completed — Beginner Data Analytics Project**
+
+More projects will be added as I continue learning and developing my data analytics skills.
